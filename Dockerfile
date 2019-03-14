@@ -29,7 +29,6 @@ RUN add-apt-repository ppa:jonathonf/ffmpeg-4
 RUN apt-get update
 RUN apt-get -y install ffmpeg && apt-get -y install libavcodec-extra 
 RUN apt-get -y install sox
-RUN apt-get vim
 
 VOLUME /src
 WORKDIR /src
