@@ -23,7 +23,8 @@ RUN pip3 install \
   librosa \
   SpeechRecognition \
   spectrum \
-  samplerate
+  samplerate \
+  pystoi
 RUN pip3 install pysptk  
 RUN add-apt-repository ppa:jonathonf/ffmpeg-4
 RUN apt-get update
